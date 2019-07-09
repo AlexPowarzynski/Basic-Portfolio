@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alex Powarzynski</title>
-    <link rel ="stylesheet" href = "assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-<!--Top Bar-->
-<ul>
-    <li class = "name" style="float:left"><h1>Alex Powarzynski</h1></li>
-    <li><a class = "active" href= "contact.html">Contact</a></li> 
-    <li><a class = "active" href= "portfolio.html">Portfolio</a></li>
-    <li><a class = "active" href= "index.html">About</a></li>
-</ul>
-<!--Contact-->
- <h1 class = "h1">
-     Contact
- </h1>
- 
+    <!--Top Bar-->
+    <ul>
+        <li id="name">
+            <h1>Alex Powarzynski</h1>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="index.html">About</a></li>
+    </ul>
+    <br><br><br>
+    <!--contact-->
+    <div class="mainContent">
+        <h1 id="headAM">
+            Contact
+        </h1>
+        <br> <br> 
+        <form>
+            Name:<br>
+            <input type="text" name = "fullName"><br>
+            E-mail:<br>
+            <input type="email" name = "email"><br>
+            Message: <br>
+            <input type="text" name = "message" size = "100" maxlength = "1000">
+        </form>
+    </div>
 </body>
+
 </html>
