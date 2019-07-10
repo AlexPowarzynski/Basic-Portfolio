@@ -48,6 +48,7 @@ li a {
     margin: 70px auto;
     padding: 10px 20px;
     background-color: white;
+    position: relative;
 }
 
 #img {
@@ -68,6 +69,7 @@ body {
 }
 footer {
     padding-top: 30px;
+    padding-bottom: 5px;
     background: #666;
     color: white;
     text-align: center;
