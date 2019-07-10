@@ -1,20 +1,28 @@
+html {
+    position: relative;
+}
 ul {
     list-style-type: none;
     padding-top: 0px;
     overflow: hidden;
     background-color: white;
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
+    margin-right: 45px;
     border-bottom-style: solid;
     border-bottom-color: #cccccc ;
+    position: fixed;
+    top: 0;
+
 }
 li {
     float: right;
+    left: 40px;
 }
 li a {
     display: block;
     color: #777777;
-    padding: 0px 14px;
+    padding: 0px 5px;
     text-decoration: none;
     margin-top: 25px;
 }
@@ -25,6 +33,7 @@ li a {
     text-align: center;
     float: left;
     margin: 0 auto;
+    margin-left: 15%;
 }
 #headAM {
     color: teal;
@@ -36,7 +45,7 @@ li a {
 .mainContent {
     color: #777777;
     width: 960px;
-    margin: 0 auto;
+    margin: 70px auto;
     padding: 10px 20px;
     background-color: white;
 }
@@ -47,15 +56,16 @@ li a {
     padding-bottom: 15px;
     float:left;
 }
-.hero-image {
+
+body {
+    position: relative;
     background-image: url("../images/papyrus.png");
     background-color: white;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     margin: 0px;
     padding-top: 40px;
 }
-
 footer {
     padding-top: 30px;
     background: #666;
@@ -65,6 +75,8 @@ footer {
     border-top-style: solid;
     border-top-color: teal;
     border-top-width: 8px;
+    width: 100%;
+    position: fixed;
     bottom: 0;
   }
   
@@ -86,4 +98,8 @@ footer {
   }
   .messageBar {
       width: 100%;
+  }
+  .move {
+      position: absolute;
+      right: 310px;
   }
