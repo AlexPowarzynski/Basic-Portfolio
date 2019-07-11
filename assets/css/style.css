@@ -26,6 +26,9 @@ li a {
     text-decoration: none;
     margin-top: 25px;
 }
+li a:hover {
+    color: black;
+}
 #name {
     background-color: teal;
     color: white;
@@ -93,6 +96,9 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
   }
+  .button:hover {
+      background-color: darkslategrey;
+  }
   .textBar {
       width: 100%;
 
@@ -120,6 +126,9 @@ footer {
     cursor: pointer;
     display: block;
   }
+  #oneTag:hover {
+      background-color: darkslategrey;
+  }
   .two {
       position: relative;
       margin: 15px 0;
@@ -133,6 +142,9 @@ footer {
     position: absolute;
     bottom: 0;
     cursor: pointer;
+  }
+  #twoTag:hover {
+      background-color: darkslategrey;
   }
   .three {
       position: absolute;
@@ -150,6 +162,9 @@ footer {
     bottom: 0;
     cursor: pointer;
   }
+  #threeTag:hover {
+      background-color: darkslategrey;
+  }
   .four {
     position: absolute;
     margin: 15px 15px;
@@ -165,4 +180,7 @@ footer {
     position: absolute;
     bottom: 0;
     cursor: pointer;
+  }
+  #fourTag:hover {
+      background-color: darkslategrey;
   }
